@@ -8,7 +8,7 @@ Algorithms translated from C# to Golang by Gentry Rolofson: `xdarkicex` for less
  - [x] Greatest Common Denominator
  - [x] Least Common Multiple
  - [x] Sieve of eratosthenes
- - [x] Probably Prime
+ - [x] Probably Prime - Special using golang `big.ProbablyPrime(N)`
 
  `main.go` 
 

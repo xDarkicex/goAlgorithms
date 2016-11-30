@@ -44,6 +44,8 @@ func switcher(input string) {
 		c.SolveSieve()
 	case "guessprime":
 		c.GuessPrime()
+	case "findmin":
+		c.SolveMin()
 	default:
 		fmt.Println("GoodBye...")
 	}

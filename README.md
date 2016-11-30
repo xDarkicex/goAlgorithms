@@ -9,6 +9,8 @@ Algorithms translated from C# to Golang by Gentry Rolofson: `xdarkicex` for less
  - [x] Least Common Multiple
  - [x] Sieve of eratosthenes
  - [x] Probably Prime - Special using golang `big.ProbablyPrime(N)`
+ - [x] Find array min
+ - [x] Find array max
 
  `main.go` 
 

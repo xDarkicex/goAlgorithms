@@ -2,11 +2,11 @@ package Calc
 
 import "fmt"
 
-//SolveMin find min number in array
-func SolveMin() {
-	var n int
-	var t int
-	var i int
+//SolveMax find min number in array
+func SolveMax() {
+	var n int64
+	var t int64
+	var i int64
 	var arr []int
 	fmt.Print("Enter size of array: ")
 	fmt.Scan(&n)
@@ -22,16 +22,16 @@ func SolveMin() {
 			arr = append(arr, int(t))
 		}
 	}
-	minInt(arr)
+	maxInt(arr)
 
 }
 
-func minInt(arr []int) {
-	min := arr[0]
+func maxInt(arr []int) {
+	max := arr[0]
 	for i := 1; i < len(arr); i++ {
-		if arr[i] < min {
-			min = arr[i]
+		if arr[i] > max {
+			max = arr[i]
 		}
 	}
-	fmt.Printf("Minimum value in array is %d\n", min)
+	fmt.Printf("Maximum value in array is %d\n", max)
 }

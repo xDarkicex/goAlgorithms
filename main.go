@@ -46,6 +46,8 @@ func switcher(input string) {
 		c.GuessPrime()
 	case "findmin":
 		c.SolveMin()
+	case "findmax":
+		c.SolveMax()
 	default:
 		fmt.Println("GoodBye...")
 	}

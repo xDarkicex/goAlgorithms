@@ -48,6 +48,8 @@ func switcher(input string) {
 		c.SolveMin()
 	case "findmax":
 		c.SolveMax()
+	case "findtotal":
+		c.Total()
 	default:
 		fmt.Println("GoodBye...")
 	}

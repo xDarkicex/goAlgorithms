@@ -50,6 +50,10 @@ func switcher(input string) {
 		c.SolveMax()
 	case "findtotal":
 		c.Total()
+	case "findaverage":
+		c.Average()
+	case "varience":
+		c.Variance()
 	default:
 		fmt.Println("GoodBye...")
 	}

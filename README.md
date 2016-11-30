@@ -11,6 +11,7 @@ Algorithms translated from C# to Golang by Gentry Rolofson: `xdarkicex` for less
  - [x] Probably Prime - Special using golang `big.ProbablyPrime(N)`
  - [x] Find array min
  - [x] Find array max
+ - [x] Calculate array Varience
 
  `main.go` 
 

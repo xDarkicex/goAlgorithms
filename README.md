@@ -12,6 +12,8 @@ Algorithms translated from C# to Golang by Gentry Rolofson: `xdarkicex` for less
  - [x] Find array min
  - [x] Find array max
  - [x] Calculate array Varience
+ - [x] Collatz Number
+ - [x] Prime Factor
 
  `main.go` 
 

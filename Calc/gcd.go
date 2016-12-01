@@ -16,9 +16,9 @@ func SolveGCD() {
 	fmt.Println("GCD takes two numbers ")
 	var a, b uint
 	fmt.Print("Enter Number: ")
-	_, _ = fmt.Scan(&a)
+	fmt.Scan(&a)
 	fmt.Print("Enter Number: ")
-	_, _ = fmt.Scan(&b)
+	fmt.Scan(&b)
 	GCD := GCD(uint(a), uint(b))
 	fmt.Printf("The Greatest common Denominator for %d and %d is %d\n", a, b, GCD)
 }

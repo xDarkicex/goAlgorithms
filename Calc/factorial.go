@@ -7,7 +7,7 @@ func SolveFactorial() {
 	fmt.Println("Function solves for factorials ")
 	var a uint
 	fmt.Print("Enter Number: ")
-	_, _ = fmt.Scan(&a)
+	fmt.Scan(&a)
 	f := factorial(uint(a))
 	fmt.Printf("The factorial of %d is %d\n", a, f)
 }
@@ -18,3 +18,4 @@ func factorial(a uint) uint {
 	}
 	return a * factorial(a-1)
 }
+

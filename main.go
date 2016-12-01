@@ -54,6 +54,10 @@ func switcher(input string) {
 		c.Average()
 	case "varience":
 		c.Variance()
+	case "collatz":
+		c.SolveCollatz()
+	case "factor":
+		c.SolveFactor()
 	default:
 		fmt.Println("GoodBye...")
 	}
